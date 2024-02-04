@@ -1,0 +1,38 @@
+{
+  "name": "cucumberjspractice",
+  "version": "1.0.0",
+  "description": "Automate ReactJS scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "setupFiles": [
+    
+  ],
+  "testMatch": [
+    "**/__tests__/**/**/*.steps.js"
+  ],
+  "jest": {
+		"verbose": true,
+		"testURL": "http://localhost/",
+		"resolver": "browser-resolve"
+	  },
+  "keywords": [
+    "javascript",
+    "selenium",
+    "tdd",
+    "local",
+    "test",
+    "jest"
+  ],
+  "author": "Piyush Pranav",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "jest-cucumber": "^3.0.1",
+    "selenium-webdriver": "^4.2.0"
+  },
+  "dependencies": {
+    "test": "^0.6.0"
+  }
+}
